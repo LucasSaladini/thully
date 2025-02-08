@@ -5,7 +5,7 @@ interface TwitchProps {
 }
 
 const Twitch: React.FC<TwitchProps> = ({ videoId }) => {
-  const embedUrl = `https://player.twitch.tv/?video=v${videoId}&parent=thully.vercel.app/&autoplay=false"`
+  const embedUrl = `https://player.twitch.tv/?video=v${videoId}&parent=thully.vercel.app&autoplay=false"`
 
   return (
     <div style={{ position: "relative", width: "100%", paddingTop: "56.25%" }}>
